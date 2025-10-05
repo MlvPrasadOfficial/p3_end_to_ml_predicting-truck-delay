@@ -1,7 +1,10 @@
-# Ignore oversized DB backups
+﻿# Ignore oversized DB backups
 Data/Database_backup/*.sql
 end-to-end-1/**/Database_backup/*.sql
 
 # macOS metadata
 end-to-end-1/__MACOSX/
 **/.DS_Store
+
+# Project data
+Data/
